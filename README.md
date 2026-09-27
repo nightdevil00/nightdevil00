@@ -21,6 +21,14 @@ Quickshell — bar widgets, panels, overlays and background services.
 Browse them all in the [Plugins collection](https://github.com/nightdevil00/Plugins)
 — it has a map, per-plugin notes, and install instructions.
 
+## Tools
+
+Small standalone Linux apps, in the [Tools collection](https://github.com/nightdevil00/Tools).
+
+| Tool | What it does |
+| --- | --- |
+| [DDWriter](https://github.com/nightdevil00/Tools/tree/main/DDWriter) | GTK3 utility for writing ISO images to USB drives with `dd` — device detection, live progress, optional SHA256 verification, auto-eject |
+
 ## What I work with
 
 - **Linux** — Arch, Hyprland, and the desktop stack around them
