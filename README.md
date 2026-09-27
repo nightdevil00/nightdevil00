@@ -29,6 +29,16 @@ Small standalone Linux apps, in the [Tools collection](https://github.com/nightd
 | --- | --- |
 | [DDWriter](https://github.com/nightdevil00/Tools/tree/main/DDWriter) | GTK3 utility for writing ISO images to USB drives with `dd` — device detection, live progress, optional SHA256 verification, auto-eject |
 
+## Dotfiles
+
+My own machine's configuration, in the [Dotfiles collection](https://github.com/nightdevil00/Dotfiles).
+
+| Config | What it is |
+| --- | --- |
+| [Hyprland](https://github.com/nightdevil00/Dotfiles/tree/main/Hyprland) | Hyprland configuration and keybindings, written in Lua |
+
+Install with `./install.sh` from a clone — it backs up your existing `~/.config/hypr` first.
+
 ## What I work with
 
 - **Linux** — Arch, Hyprland, and the desktop stack around them
