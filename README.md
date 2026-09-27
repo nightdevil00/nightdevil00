@@ -39,6 +39,10 @@ My own machine's configuration, in the [Dotfiles collection](https://github.com/
 
 Install with `./install.sh` from a clone — it backs up your existing `~/.config/hypr` first.
 
+## Wallpapers
+
+Desktop backgrounds in the [Wallpapers collection](https://github.com/nightdevil00/Wallpapers) — 18 images, installable into `~/Pictures/Wallpapers` with `./install.sh`.
+
 ## What I work with
 
 - **Linux** — Arch, Hyprland, and the desktop stack around them
