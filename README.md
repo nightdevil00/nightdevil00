@@ -45,7 +45,7 @@ Desktop backgrounds in the [Wallpapers collection](https://github.com/nightdevil
 
 ## Documentation
 
-[Documentation](https://github.com/nightdevil00/Documentation) — 143 Markdown files from my archived projects, grouped by origin so they can be searched without cloning 55 repos.
+[Documentation](https://github.com/nightdevil00/Documentation) — 37 notes I kept worth reading: how Omarchy works, problems I hit and what fixed them, this laptop's hardware, and tutorials.
 
 ## What I work with
 
