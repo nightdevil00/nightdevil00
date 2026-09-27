@@ -43,6 +43,10 @@ Install with `./install.sh` from a clone — it backs up your existing `~/.confi
 
 Desktop backgrounds in the [Wallpapers collection](https://github.com/nightdevil00/Wallpapers) — 18 images, installable into `~/Pictures/Wallpapers` with `./install.sh`.
 
+## Documentation
+
+[Documentation](https://github.com/nightdevil00/Documentation) — 143 Markdown files from my archived projects, grouped by origin so they can be searched without cloning 55 repos.
+
 ## What I work with
 
 - **Linux** — Arch, Hyprland, and the desktop stack around them
