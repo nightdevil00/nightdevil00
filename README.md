@@ -23,6 +23,8 @@ Browse them all in the [Plugins collection](https://github.com/nightdevil00/Plug
 
 ## Tools
 
+[![Tools](https://img.shields.io/badge/tools-1-6f42c1?style=flat-square)](https://github.com/nightdevil00/Tools)
+
 Small standalone Linux apps, in the [Tools collection](https://github.com/nightdevil00/Tools).
 
 | Tool | What it does |
@@ -30,6 +32,8 @@ Small standalone Linux apps, in the [Tools collection](https://github.com/nightd
 | [DDWriter](https://github.com/nightdevil00/Tools/tree/main/DDWriter) | GTK3 utility for writing ISO images to USB drives with `dd` — device detection, live progress, optional SHA256 verification, auto-eject |
 
 ## Dotfiles
+
+[![Dotfiles](https://img.shields.io/badge/dotfiles-1-6f42c1?style=flat-square)](https://github.com/nightdevil00/Dotfiles)
 
 My own machine's configuration, in the [Dotfiles collection](https://github.com/nightdevil00/Dotfiles).
 
@@ -40,6 +44,8 @@ My own machine's configuration, in the [Dotfiles collection](https://github.com/
 Install with `./install.sh` from a clone — it backs up your existing `~/.config/hypr` first.
 
 ## Scripts
+
+[![Scripts](https://img.shields.io/badge/scripts-2-6f42c1?style=flat-square)](https://github.com/nightdevil00/Scripts)
 
 Installer and recovery scripts in the [Scripts collection](https://github.com/nightdevil00/Scripts).
 
