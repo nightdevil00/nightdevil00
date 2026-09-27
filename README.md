@@ -39,6 +39,15 @@ My own machine's configuration, in the [Dotfiles collection](https://github.com/
 
 Install with `./install.sh` from a clone — it backs up your existing `~/.config/hypr` first.
 
+## Scripts
+
+Installer and recovery scripts in the [Scripts collection](https://github.com/nightdevil00/Scripts).
+
+| Script | What it does |
+| --- | --- |
+| [OfflineArch](https://github.com/nightdevil00/Scripts/tree/main/OfflineArch) | Builds a custom Arch ISO that installs Arch with no internet — DualBoot alongside Windows or full wipe — and runs the installer automatically on first boot |
+| [System_Repair](https://github.com/nightdevil00/Scripts/tree/main/System_Repair) | Rescue script for a machine that will not boot: finds the root partition, handles LUKS, mounts Btrfs subvolumes and boot partitions, then drops you into a chroot |
+
 ## Wallpapers
 
 Desktop backgrounds in the [Wallpapers collection](https://github.com/nightdevil00/Wallpapers) — 18 images, installable into `~/Pictures/Wallpapers` with `./install.sh`.
