@@ -33,15 +33,16 @@ Small standalone Linux apps, in the [Tools collection](https://github.com/nightd
 
 ## Dotfiles
 
-[![Dotfiles](https://img.shields.io/badge/dotfiles-1-6f42c1?style=flat-square)](https://github.com/nightdevil00/Dotfiles)
+[![Dotfiles](https://img.shields.io/badge/dotfiles-2-6f42c1?style=flat-square)](https://github.com/nightdevil00/Dotfiles)
 
 My own machine's configuration, in the [Dotfiles collection](https://github.com/nightdevil00/Dotfiles).
 
 | Config | What it is |
 | --- | --- |
 | [Hyprland](https://github.com/nightdevil00/Dotfiles/tree/main/Hyprland) | Hyprland configuration and keybindings, written in Lua |
+| [Fastfetch](https://github.com/nightdevil00/Dotfiles/tree/main/Fastfetch) | Two `fastfetch` layouts, with a script to pick and install one |
 
-Install with `./install.sh` from a clone — it backs up your existing `~/.config/hypr` first.
+Each config installs with its own `install.sh` from a clone, and each backs up what it is about to replace, so re-running is safe. Fastfetch's asks which layout you want — 1 or 2.
 
 ## Scripts
 
