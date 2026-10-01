@@ -7,15 +7,15 @@ kind of automation that makes everyday use less tedious.
 
 ## Plugins
 
-Fifteen shell plugins for [Omarchy](https://omarchy.org/), written in QML for
+Sixteen shell plugins for [Omarchy](https://omarchy.org/), written in QML for
 Quickshell — bar widgets, panels, overlays and background services.
 
-[![Plugins](https://img.shields.io/badge/plugins-15-6f42c1?style=flat-square)](https://github.com/nightdevil00/Plugins)
+[![Plugins](https://img.shields.io/badge/plugins-16-6f42c1?style=flat-square)](https://github.com/nightdevil00/Plugins)
 
 | | |
 | --- | --- |
 | **Panels & overlays** | [Omarchy Settings](https://github.com/nightdevil00/Plugins/tree/main/custom-settings) · [Spotlight](https://github.com/nightdevil00/Plugins/tree/main/mihai.spotlight) · [Wallpaper Picker](https://github.com/nightdevil00/Plugins/tree/main/mihai.picker) · [Simple Dock](https://github.com/nightdevil00/Plugins/tree/main/simple.dock) |
-| **Bar widgets** | [Better Displays](https://github.com/nightdevil00/Plugins/tree/main/better.displays) · [Bluetooth Codecs](https://github.com/nightdevil00/Plugins/tree/main/bt.codecs) · [2048](https://github.com/nightdevil00/Plugins/tree/main/custom-2048) · [Default Apps](https://github.com/nightdevil00/Plugins/tree/main/setup.defaults) · [Hider](https://github.com/nightdevil00/Plugins/tree/main/plugin.hider) · [Screenshot Picker](https://github.com/nightdevil00/Plugins/tree/main/pick.screenshot) · [TLP Battery](https://github.com/nightdevil00/Plugins/tree/main/tlp.battery) · [OmaPony](https://github.com/nightdevil00/Plugins/tree/main/yt-pony) · [opencode Usage](https://github.com/nightdevil00/Plugins/tree/main/mihai.opencode-usage) |
+| **Bar widgets** | [Better Displays](https://github.com/nightdevil00/Plugins/tree/main/better.displays) · [Bluetooth Codecs](https://github.com/nightdevil00/Plugins/tree/main/bt.codecs) · [2048](https://github.com/nightdevil00/Plugins/tree/main/custom-2048) · [Default Apps](https://github.com/nightdevil00/Plugins/tree/main/setup.defaults) · [Hider](https://github.com/nightdevil00/Plugins/tree/main/plugin.hider) · [Screenshot Picker](https://github.com/nightdevil00/Plugins/tree/main/pick.screenshot) · [TLP Battery](https://github.com/nightdevil00/Plugins/tree/main/tlp.battery) · [OmaPony](https://github.com/nightdevil00/Plugins/tree/main/yt-pony) · [opencode Usage](https://github.com/nightdevil00/Plugins/tree/main/mihai.opencode-usage) · [local llama](https://github.com/nightdevil00/Plugins/tree/main/mihai.llama) |
 | **Services** | [YouTube Music](https://github.com/nightdevil00/Plugins/tree/main/mihai.ytmusic) · [No Sleep](https://github.com/nightdevil00/Plugins/tree/main/white.nights) |
 
 Browse them all in the [Plugins collection](https://github.com/nightdevil00/Plugins)
@@ -68,13 +68,26 @@ Desktop backgrounds in the [Wallpapers collection](https://github.com/nightdevil
 
 ## Documentation
 
-[Documentation](https://github.com/nightdevil00/Documentation) — 37 notes I kept worth reading: how Omarchy works, problems I hit and what fixed them, this laptop's hardware, and tutorials.
+[Documentation](https://github.com/nightdevil00/Documentation) — 32 notes I kept worth reading: how Omarchy works, problems I hit and what fixed them, this laptop's hardware, and tutorials.
+
+## AI tooling
+
+[![onesystem](https://img.shields.io/badge/onesystem-1-6f42c1?style=flat-square)](https://github.com/nightdevil00/onesystem)
+[![HumVisual](https://img.shields.io/badge/humvisual-1-6f42c1?style=flat-square)](https://github.com/nightdevil00/HumVisual)
+
+Things I built to work with an AI coding agent rather than on my own machine.
+
+| Repo | What it is |
+| --- | --- |
+| [onesystem](https://github.com/nightdevil00/onesystem) | Fork of [micahn/onesystem](https://github.com/micahn/onesystem) — one shared GPU decision service that OpenCode sessions load models into on demand and unload when idle. My change gates the torch vendor check so NVIDIA cards accept a CUDA build instead of only ROCm |
+| [HumVisual](https://github.com/nightdevil00/HumVisual) | Agent skill, merged from [Humanizer](https://github.com/blader/humanizer) and [visual-explainer](https://github.com/nicobailon/visual-explainer): rewrites AI-sounding prose without changing the facts, and turns systems, diffs and plans into self-contained HTML pages. Ships an example paper |
 
 ## What I work with
 
 - **Linux** — Arch, Hyprland, and the desktop stack around them
 - **QML / Quickshell** — shell plugins, bar widgets, panels
 - **Shell and automation** — install scripts, system tuning, backups
+- **TypeScript** — OpenCode plugins and shared services
 - **Occasionally** — Nix, and other things I probably shouldn't have started
 
 ## Find me
@@ -82,5 +95,3 @@ Desktop backgrounds in the [Wallpapers collection](https://github.com/nightdevil
 <!-- TODO: fill these in, or delete any line you don't need. -->
 
 - **GitHub** — [@nightdevil00](https://github.com/nightdevil00)
-- **Email** — <!-- TODO: you@example.com -->
-- **Website** — <!-- TODO: https://your-site.example -->
