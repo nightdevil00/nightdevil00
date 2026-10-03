@@ -68,7 +68,30 @@ Desktop backgrounds in the [Wallpapers collection](https://github.com/nightdevil
 
 ## Documentation
 
-[Documentation](https://github.com/nightdevil00/Documentation) — 32 notes I kept worth reading: how Omarchy works, problems I hit and what fixed them, this laptop's hardware, and tutorials.
+[Documentation](https://github.com/nightdevil00/Documentation) — 32 notes I kept worth reading: how Omarchy works, problems I hit and what fixed them, this laptop's hardware, and tutorials. It also holds the [skills](#skills) below.
+
+## Skills
+
+[![Skills](https://img.shields.io/badge/skills-18-6f42c1?style=flat-square)](https://github.com/nightdevil00/Documentation/tree/main/skills)
+
+Eighteen agent skills in [Documentation/skills](https://github.com/nightdevil00/Documentation/tree/main/skills) — installable `SKILL.md` files that hand a coding agent the ground truth it would otherwise guess at or invent.
+
+```bash
+git clone https://github.com/nightdevil00/Documentation.git
+cd Documentation/skills
+./install.sh
+```
+
+`install.sh` copies each skill into `~/.agents/skills/` — the agent-agnostic directory Omarchy itself uses — then symlinks it into the claude, codex, pi, gemini and hermes skill directories, so every agent shares one copy. Restart the agent afterwards.
+
+| | |
+| --- | --- |
+| **Desktop** | [omarchy](https://github.com/nightdevil00/Documentation/tree/main/skills/omarchy) · [omarchy-plugin](https://github.com/nightdevil00/Documentation/tree/main/skills/omarchy-plugin) · [omarchy-theme](https://github.com/nightdevil00/Documentation/tree/main/skills/omarchy-theme) · [hyprland](https://github.com/nightdevil00/Documentation/tree/main/skills/hyprland) · [quickshell](https://github.com/nightdevil00/Documentation/tree/main/skills/quickshell) · [sddm](https://github.com/nightdevil00/Documentation/tree/main/skills/sddm) · [systemd](https://github.com/nightdevil00/Documentation/tree/main/skills/systemd) · [wayland-environment](https://github.com/nightdevil00/Documentation/tree/main/skills/wayland-environment) |
+| **Languages** | [bash](https://github.com/nightdevil00/Documentation/tree/main/skills/bash) · [fish](https://github.com/nightdevil00/Documentation/tree/main/skills/fish) · [python](https://github.com/nightdevil00/Documentation/tree/main/skills/python) · [rust](https://github.com/nightdevil00/Documentation/tree/main/skills/rust) |
+| **Tooling** | [arch](https://github.com/nightdevil00/Documentation/tree/main/skills/arch) · [github](https://github.com/nightdevil00/Documentation/tree/main/skills/github) · [github-pages](https://github.com/nightdevil00/Documentation/tree/main/skills/github-pages) |
+| **Also covered** | [niri](https://github.com/nightdevil00/Documentation/tree/main/skills/niri) · [noctalia](https://github.com/nightdevil00/Documentation/tree/main/skills/noctalia) · [caelestia](https://github.com/nightdevil00/Documentation/tree/main/skills/caelestia) — not on my machine, kept as reference |
+
+Everything is written against a live install rather than recalled docs — Hyprland 0.56.2, Quickshell 0.3.1, Omarchy 4.0.0 — and every `omarchy` command cited was checked against `omarchy commands` or run directly. That includes the ones people get wrong: `omarchy debug` does not exist, the report tool is the standalone `omarchy-debug` binary.
 
 ## AI tooling
 
