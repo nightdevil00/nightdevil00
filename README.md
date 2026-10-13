@@ -7,16 +7,16 @@ kind of automation that makes everyday use less tedious.
 
 ## Plugins
 
-Sixteen shell plugins for [Omarchy](https://omarchy.org/), written in QML for
+Seventeen shell plugins for [Omarchy](https://omarchy.org/), written in QML for
 Quickshell — bar widgets, panels, overlays and background services.
 
-[![Plugins](https://img.shields.io/badge/plugins-16-6f42c1?style=flat-square)](https://github.com/nightdevil00/Plugins)
+[![Plugins](https://img.shields.io/badge/plugins-17-6f42c1?style=flat-square)](https://github.com/nightdevil00/Plugins)
 
 | | |
 | --- | --- |
 | **Panels & overlays** | [Omarchy Settings](https://github.com/nightdevil00/Plugins/tree/main/custom-settings) · [Spotlight](https://github.com/nightdevil00/Plugins/tree/main/mihai.spotlight) · [Wallpaper Picker](https://github.com/nightdevil00/Plugins/tree/main/mihai.picker) · [Simple Dock](https://github.com/nightdevil00/Plugins/tree/main/simple.dock) |
 | **Bar widgets** | [Better Displays](https://github.com/nightdevil00/Plugins/tree/main/better.displays) · [Bluetooth Codecs](https://github.com/nightdevil00/Plugins/tree/main/bt.codecs) · [2048](https://github.com/nightdevil00/Plugins/tree/main/custom-2048) · [Default Apps](https://github.com/nightdevil00/Plugins/tree/main/setup.defaults) · [Hider](https://github.com/nightdevil00/Plugins/tree/main/plugin.hider) · [Screenshot Picker](https://github.com/nightdevil00/Plugins/tree/main/pick.screenshot) · [TLP Battery](https://github.com/nightdevil00/Plugins/tree/main/tlp.battery) · [OmaPony](https://github.com/nightdevil00/Plugins/tree/main/yt-pony) · [opencode Usage](https://github.com/nightdevil00/Plugins/tree/main/mihai.opencode-usage) · [local llama](https://github.com/nightdevil00/Plugins/tree/main/mihai.llama) |
-| **Services** | [YouTube Music](https://github.com/nightdevil00/Plugins/tree/main/mihai.ytmusic) · [No Sleep](https://github.com/nightdevil00/Plugins/tree/main/white.nights) |
+| **Services** | [YouTube Music](https://github.com/nightdevil00/Plugins/tree/main/mihai.ytmusic) · [No Sleep](https://github.com/nightdevil00/Plugins/tree/main/white.nights) · [Edge App](https://github.com/nightdevil00/Plugins/tree/main/mihai.edgeapp) |
 
 Browse them all in the [Plugins collection](https://github.com/nightdevil00/Plugins)
 — it has a map, per-plugin notes, and install instructions.
