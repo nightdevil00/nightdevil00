@@ -66,6 +66,18 @@ stop them working and what to fix first.
 
 Desktop backgrounds in the [Wallpapers collection](https://github.com/nightdevil00/Wallpapers) — 18 images, installable into `~/Pictures/Wallpapers` with `./install.sh`.
 
+## Themes
+
+[![Themes](https://img.shields.io/badge/themes-1-6f42c1?style=flat-square)](https://github.com/nightdevil00/Themes)
+
+[Omarchy](https://omarchy.org/) themes, in the [Themes collection](https://github.com/nightdevil00/Themes). A theme is a palette; Omarchy generates the terminal, bar, editor and browser configs from it when the theme is applied.
+
+| Theme | What it is |
+| --- | --- |
+| [Violet Blush](https://github.com/nightdevil00/Themes/tree/main/violet-blush) | A Catppuccin-inspired palette with a violet spine and a blush heart — deep plum ground, lavender text, a violet `#b98cff` accent and a blush `#ff8fb3` secondary, with a violet → blush → periwinkle window-border gradient. Ten pastel wallpapers, a matching lock-screen preview, and the Omarchy wordmark wallpaper |
+
+Each installs with `./install.sh` from a clone, into `~/.config/omarchy/themes`, and only copies files that differ — so re-running is safe and it leaves a theme you have edited yourself alone.
+
 ## Documentation
 
 [Documentation](https://github.com/nightdevil00/Documentation) — 32 notes I kept worth reading: how Omarchy works, problems I hit and what fixed them, this laptop's hardware, and tutorials. It also holds the [skills](#skills) below.
