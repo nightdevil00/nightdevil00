@@ -5,6 +5,21 @@ I'm **Robertino Mihai Sandorhazi** — a tech and programming enthusiast.
 I build things for my own machine: system configuration, small tools, and the
 kind of automation that makes everyday use less tedious.
 
+## Dual-boot Linux next to Windows — no USB stick
+
+[![ISO-Recovery](https://img.shields.io/badge/dual--boot-1-6f42c1?style=flat-square)](https://github.com/nightdevil00/ISO-Recovery)
+
+[ISO-Recovery](https://github.com/nightdevil00/ISO-Recovery) makes an Omarchy,
+Arch, CachyOS or EndeavourOS ISO bootable straight from free space on an
+internal disk, so you can install Linux **alongside Windows** on a UEFI machine
+with no USB stick and no second computer.
+
+It only uses **unallocated** space — it never resizes or wipes a partition, so
+Windows keeps booting. Shrink a volume in Disk Management, run the tool, reboot
+into the live ISO, then install with the **Free space install** option. That
+option is what keeps it a dual-boot; the full-disk / erase option would remove
+Windows.
+
 ## Plugins
 
 Seventeen shell plugins for [Omarchy](https://omarchy.org/), written in QML for
